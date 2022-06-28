@@ -1,0 +1,5 @@
+*.tar.gz
+src/*.tar.gz
+src/*.rpm
+src/results_kime/
+src/results_kime/*
