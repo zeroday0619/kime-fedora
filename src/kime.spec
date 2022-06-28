@@ -130,6 +130,9 @@ mv /home/$USER/.i18n.old /home/$USER/.i18n
 %{_includedir}/kime*
 
 %changelog
+* Tue Jun 28 2022 zeroday0619 2.5.6-1
+- write auto build script
+
 * Tue Feb 16 2021 dumca - 1.0.3-5
 - fix spec file
 
