@@ -12,6 +12,7 @@ BuildArch:		x86_64
 BuildRequires:	llvm-devel
 BuildRequires:	rust
 BuildRequires:	cargo
+BuildRequires:  cmake
 BuildRequires:  libappindicator-devel
 BuildRequires:  clang
 BuildRequires:  clang-libs
