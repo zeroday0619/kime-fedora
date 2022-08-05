@@ -135,7 +135,6 @@ mv /home/$USER/.i18n.old /home/$USER/.i18n
 %defattr(-,root,root) 
 %doc LICENSE
 %{_bindir}/*
-%{buildroot}%{_desktopdir}/kime-indicator.desktop
 %{kime_icons_dir}/*
 %{kime_conf_dir}/config.yaml
 %{kime_gtk2_dir}/im-kime.so
