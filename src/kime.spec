@@ -13,6 +13,9 @@ BuildRequires:	llvm-devel
 BuildRequires:	rust
 BuildRequires:	cargo
 BuildRequires:  libappindicator-devel
+BuildRequires:  clang
+BuildRequires:  clang-libs
+BuildRequires:  clang-devel
 
 %define kime_conf_dir /etc/xdg/%{name}
 %define kime_inc_dir %{_includedir}
