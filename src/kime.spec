@@ -23,6 +23,7 @@ BuildRequires:  cairo-gobject
 BuildRequires:  cairo-gobject-devel
 BuildRequires:  gtk3-devel
 BuildRequires:  qt5-qtbase-devel
+BuildRequires:  qt5-qtbase-private-devel
 
 
 %define kime_conf_dir /etc/xdg/%{name}
