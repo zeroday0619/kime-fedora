@@ -25,6 +25,9 @@ BuildRequires:  gtk3-devel
 BuildRequires:  qt5-qtbase-devel
 BuildRequires:  qt5-qtbase-private-devel
 BuildRequires:  desktop-file-utils
+BuildRequires:	systemd
+BuildRequires:	systemd-rpm-macros
+
 
 %define kime_conf_dir /etc/xdg/%{name}
 %define kime_inc_dir %{_includedir}
