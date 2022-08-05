@@ -24,7 +24,7 @@ BuildRequires:  cairo-gobject-devel
 BuildRequires:  gtk3-devel
 BuildRequires:  qt5-qtbase-devel
 BuildRequires:  qt5-qtbase-private-devel
-
+BuildRequires:  desktop-file-utils
 
 %define kime_conf_dir /etc/xdg/%{name}
 %define kime_inc_dir %{_includedir}
@@ -62,7 +62,7 @@ install -Dm 0755 %{kime_build_dir}/libkime-gtk2.so %{buildroot}%{kime_gtk2_dir}/
 install -Dm 0755 %{kime_build_dir}/libkime-gtk3.so %{buildroot}%{kime_gtk3_dir}/im-kime.so
 install -Dm 0755 %{kime_build_dir}/libkime-qt5.so %{buildroot}%{kime_qt5_dir}/libkimeplatforminputcontextplugin.so
 install -Dm 0755 %{kime_build_dir}/libkime_engine.so %{buildroot}%{_libdir}/
-install -Dm 0644 %{kime_build_dir}/icons/* %{buildroot}%{kime_icons_dir}/
+install -Dm 0644 %{kime_build_dir}/icons/*/* %{buildroot}%{kime_icons_dir}/
 install -Dm 0644 %{kime_build_dir}/default_config.yaml %{buildroot}%{kime_conf_dir}/config.yaml
 install -Dm 0644 %{kime_build_dir}/kime_engine.hpp %{buildroot}%{kime_inc_dir}
 install -Dm 0644 %{kime_build_dir}/kime_engine.h %{buildroot}%{kime_inc_dir}
