@@ -16,6 +16,10 @@ BuildRequires:  libappindicator-devel
 BuildRequires:  clang
 BuildRequires:  clang-libs
 BuildRequires:  clang-devel
+BuildRequires:	cairo
+BuildRequires:  cairo-devel
+BuildRequires:  cairo-gobject
+BuildRequires:  cairo-gobject-devel
 
 %define kime_conf_dir /etc/xdg/%{name}
 %define kime_inc_dir %{_includedir}
